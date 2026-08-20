@@ -1,7 +1,7 @@
 {
   "name": "zswjs",
-  "version": "1.3.5",
-  "description": "中数文API",
+  "version": "1.3.5-lineaje-01",
+  "description": "\u4e2d\u6570\u6587API",
   "main": "dist/index.js",
   "scripts": {
     "cypress": "cypress run --spec 'cypress/integration/index.spec.js'",
@@ -20,11 +20,17 @@
     "docs-serve": "python -m SimpleHTTPServer",
     "docs-publish": "sh .docs/scripts/publish.sh"
   },
-  "author": "中数文",
+  "author": "\u4e2d\u6570\u6587",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhongshuwen/zswjs.git"
+    "url": "https://github.com/lineaje-labs-gos/zhongshuwen-zswjs"
   },
   "dependencies": {
     "bn.js": "5.2.0",
